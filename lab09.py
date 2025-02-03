@@ -3,6 +3,7 @@ def print_lyrics():
     print ("I code all night, and I code all day.")
 def repeat_lyrics(count = 1):
     for number in range(count):
+        print("############".format(number), end=".")
         print_lyrics()
     print("############")
 def main():
