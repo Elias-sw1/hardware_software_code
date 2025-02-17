@@ -1,4 +1,4 @@
-import lab13_part1 as p1
+ import lab13_part1 as p1
 def greetings():
     print(" Give me two numbers and I will tell you the largest and smallest number!.")
 def get_smallest(smallest, value):
@@ -16,5 +16,5 @@ def main():
    p1.get_largest(num1,num2)
    get_smallest(num1,num2)
    stop_loop = input("Type 'yes' to exit program: ").lower().strip()
-if __name__ == "__main__":
-    main()
+# __name__ == "__main__":
+main()
